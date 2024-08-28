@@ -1,14 +1,21 @@
 project:
   type: manuscript
 
+# manuscript:
+#   article: notebooks/explore-earthquakes.qmd
+
 execute:
   freeze: auto
 
 format:
   html:
     toc: true
+    # website:
+    # theme: solar
     comments:
       hypothesis: true
+        # utterances: # this doesn't work
+          # repo: manuscript-tutorial/.github
   docx: default
   jats: default
   agu-pdf: default
